@@ -3,16 +3,17 @@ import React, { useState } from "react";
 import { useSongPlayer } from "./hooks/useSongPlayer";
 
 const App: React.FC = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   const [started, setStarted] = useState(false);
   const { currentSong, setSongSrc } = useSongPlayer();
 
   const handleStartClick = () => {
-    setSongSrc("/assets/songs/song1.mp3");
+    setSongSrc(`${baseUrl}assets/songs/song1.mp3`);
     setStarted(true);
   };
 
   const handleRevealClick = () => {
-    setSongSrc("/assets/songs/song2.mp3");
+    setSongSrc(`${baseUrl}assets/songs/song2.mp3`);
   };
 
   return (
