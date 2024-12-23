@@ -23,7 +23,19 @@ export function useSongPlayer() {
     if (songSrc) {
       audioRef.current.src = songSrc;
       audioRef.current.currentTime = 0;
-      audioRef.current.play().catch(() => {});
+      audioRef.current.load();
+      const playPromise = audioRef.current.play();
+      if (playPromise) {
+        playPromise
+          .then(() => {})
+          .catch(() => {
+            const resumePlayback = () => {
+              audioRef.current?.play();
+              document.removeEventListener("touchstart", resumePlayback);
+            };
+            document.addEventListener("touchstart", resumePlayback);
+          });
+      }
     } else {
       audioRef.current.pause();
     }

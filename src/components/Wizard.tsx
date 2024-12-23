@@ -33,7 +33,7 @@ export const Wizard = () => {
       {
         title: "Pradedam?",
         description:
-          "Gali pradėt tiek per kompą, tiek per planšetę, tiek per trupkę - nesiparinam vpš, chill.",
+          "Gali pradėt tiek per kompą, tiek per planšetę, tiek per trupkę - nesiparinam vpš, chill. Tik pasigarsink įrenginį, nes čia ir garselių visokių bus.",
         buttonText: "Paliubomu",
         onClick: async () => {
           playSound("lesgo");
@@ -44,7 +44,7 @@ export const Wizard = () => {
       {
         title: "Labas, Silvija! Su šv. Kalėdom!",
         description:
-          "Patekai į Kalėdinę viktoriną! Bet nors ji ir kalėdinė, pusė klausimų - vapšė randominiai, tad nepasimesk. O atsakius į visus klausimus teisingai sužinosi, kokia gi dovana tavęs laukia!",
+          "Patekai į Kalėdinę viktoriną! Bet nors ji ir kalėdinė, pusė klausimų - vapšė randominiai, tad nepasimesk. O atsakius į visus klausimus teisingai sužinosi, kokia gi dovana tavęs laukia! P.S. Ar girdėjai lesgo? O melodiją, kuri dabar groja? Jei ne, tai tada gal kitą įrenginį įsijunk...",
         imageSrc: darkSanta,
         buttonText: "Nu bandom",
       },
