@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Kur gimė Jėzus?",
+    "answers": [
+      {
+        "text": "Jeruzalė",
+        "correct": false
+      },
+      {
+        "text": "Venesuela",
+        "correct": false
+      },
+      {
+        "text": "Betliejus",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "question": "Du gaideliai du gaideliai kokius žirnius kūlė?",
+    "answers": [
+      {
+        "text": "Baltus",
+        "correct": false
+      },
+      {
+        "text": "Ultravioletinius",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "question": "Kaip Pilaitės restorane padavėja, paduodama desertą, bandė įžeisti vyriškį?",
+    "answers": [
+      {
+        "text": "Ėsk",
+        "correct": false
+      },
+      {
+        "text": "Po savęs išsiplausi",
+        "correct": false
+      },
+      {
+        "text": "Valgyk, berniuk",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "question": "Kokiame laidos \"24 valandos\" video sakoma ši citata:",
+    "description": "\"O tai ką reiškią žodis tvirkinti? - Zita, padėt, pagrobt, rodyt kelia, ir kaip ta mergait būt žūrėjus, kad motin žoda, idiota\"",
+    "answers": [
+      {
+        "text": "Čiulpinukai",
+        "correct": true
+      },
+      {
+        "text": "Supynės",
+        "correct": false
+      },
+      {
+        "text": "Adolius Hitlerius",
+        "correct": false
+      }
+    ]
+  },
+
+  {
+    "question": "Kokios spalvos Lino dantų šepetėlis?",
+    "answers": [
+      {
+        "text": "Mėlynas",
+        "correct": false
+      },
+      {
+        "text": "Raudonas",
+        "correct": false
+      },
+      {
+        "text": "Ružavas",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "question": "Koks maistas iš Gario Poterio filmo tau, Silvija, pasirodė saldus?..",
+    "answers": [
+      {
+        "text": "Vėdarai",
+        "correct": false
+      },
+      {
+        "text": "Drakono tartaras",
+        "correct": true
+      },
+      {
+        "text": "Pegaso žandai",
+        "correct": false
+      }
+    ]
+  },
+
+  {
+    "question": "Kiek Gariko filmo dalių peržiūrėjai ne namie?",
+    "answers": [
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      }
+    ]
+  }
+]
