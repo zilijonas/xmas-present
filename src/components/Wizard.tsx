@@ -105,7 +105,7 @@ export const Wizard = () => {
       {
         title: "Expecto Belenka, ane?- onum!",
         description:
-          "Vasario 11 dieną (19val Compensoj) Tavęs laukia simfoninio orkestro atliekamas Hogwartso natų muzikinis vakaras. Turi net du bilietus - pas ką juos atsiimti - puikiai žinai, o su kuo norėsi eiti - čia jau Tavo reikalas (bet neabejoju, jog žinai, kas tikrai nori kartu ;)).",
+          "Vasario 11 dieną (19val Compensoj) Tavęs laukia simfoninio orkestro atliekamas Hogwartso natų muzikinis vakaras. Turi net du bilietus - pas ką juos atsiimti - puikiai žinai, o su kuo norėsi eiti - čia jau Tavo reikalas (bet neabejoju, jog rauki, kas tikrai nori kartu ;)).",
         imageSrc: dovana,
         buttonText: "Bonusiux - Lino giesmė xd (prašau nerodyk niekam)",
         onClick: () => {
