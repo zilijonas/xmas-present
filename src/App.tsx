@@ -2,6 +2,7 @@ import { Stack } from "@mui/material";
 import { Wizard } from "./components/Wizard";
 
 const App: React.FC = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   return (
     <Stack
       component="main"
@@ -11,7 +12,7 @@ const App: React.FC = () => {
       alignItems="center"
       position="relative"
       sx={{
-        background: "url(/background.webp) no-repeat fixed left center / cover",
+        background: `url(${baseUrl}background.webp) no-repeat fixed left center / cover`,
       }}
     >
       <Wizard />
